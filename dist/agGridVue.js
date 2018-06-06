@@ -38,7 +38,9 @@ _main.ComponentUtil.EVENTS.forEach(function (eventName) {
 });
 
 exports.default = _vue2.default.extend({
-    template: '<div></div>',
+    render: function render(h) {
+        return h('div');
+    },
     props: props,
     data: function data() {
         return {
