@@ -1,8 +1,8 @@
 {
-  "name": "ag-grid-vue",
+  "name": "ag-grid-vue-x",
   "description": "ag-Grid Vue Component",
-  "version": "17.1.0",
-  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "version": "0.0.1",
+  "author": "johnsoncheg@163.com",
   "license": "MIT",
   "main": "main.js",
   "bugs": {
