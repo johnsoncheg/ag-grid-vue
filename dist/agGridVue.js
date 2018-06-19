@@ -87,6 +87,8 @@ exports.default = _vue2.default.extend({
         new _main.Grid(this.$el, gridOptions, gridParams);
 
         this._initialised = true;
+
+        this.$emit('grid:mounted');
     },
 
     watch: watchedProperties,
